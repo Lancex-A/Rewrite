@@ -17,7 +17,7 @@ hostname = app70xpgd776392.h5.xiaoeknow.com
 **************************************
 
 var name1908 = JSON.parse($response.body);
-{
+name1908 = {
   "data" : {
     "app_id" : "app70XpgD776392",
     "goods_list" : [
