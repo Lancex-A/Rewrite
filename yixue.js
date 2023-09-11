@@ -75,7 +75,7 @@ var name1908 = JSON.parse($response.body);
     },
     "user_id" : "u_64fec8cb448f3_3Rae7FzOwO",
     "identity_info" : {
-      "identity_user_type" : 0,
+      "identity_user_type" : 1,
       "is_upgrade_svip" : true,
       "identity_id" : "",
       "identity_invalid_reason" : "",
