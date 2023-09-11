@@ -66,21 +66,21 @@ var name1908 = JSON.parse($response.body);
       "activity_discount" : 0,
       "coupon_discount" : 0,
       "points_discount" : 0,
-      "front_end_goods_price" : 19900,
+      "front_end_goods_price" :0,
       "front_end_team_buy_caption_discount" : 0,
-      "final_price" : 19900,
-      "original_price" : 19900,
+      "final_price" : 0,
+      "original_price" : 0,
       "promo_code_discount" : 0,
       "front_end_discount_price" : 0
     },
     "user_id" : "u_64fec8cb448f3_3Rae7FzOwO",
     "identity_info" : {
       "identity_user_type" : 0,
-      "is_upgrade_svip" : false,
+      "is_upgrade_svip" : true,
       "identity_id" : "",
       "identity_invalid_reason" : "",
-      "is_show_svip" : false,
-      "svip_discount" : 0,
+      "is_show_svip" : true,
+      "svip_discount" : 1,
       "identity_type" : -1
     },
     "hide_coupon" : false,
@@ -114,7 +114,7 @@ var name1908 = JSON.parse($response.body);
       "valid" : [
 
       ],
-      "limited_svip" : false
+      "limited_svip" : true
     },
     "shipment_info" : {
       "actual_shipment_fee" : 0,
@@ -125,3 +125,4 @@ var name1908 = JSON.parse($response.body);
   "msg" : "success",
   "code" : 0
 }
+$done({body : JSON.stringify(name1908)});
