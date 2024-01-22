@@ -51,7 +51,7 @@ objc={
     "latest_login_at" : "2024-01-22 14:12:17",
     "free_search_times" : 1,
     "latest_version" : "v2.2.1",
-    "vip_level" : "2099-09-09 14:17:18 Etc/GMT",",
+    "vip_level" : "2099-09-09 14:17:18 Etc/GMT",
     "register_version" : "v2.2.1",
     "csj_bddid" : "MJDSCXJ7MDLQT7GQWF7BV54HIN4GRWF5AXL7U54FFVKEDKT4ISGA01",
     "jpush_id" : "1114a89793ad68399cd",
