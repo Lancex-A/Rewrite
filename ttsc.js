@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
+^http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1 url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
 
 
 [mitm]
@@ -25,33 +25,33 @@ objc={
     "guest" : true,
     "is_limit_times" : 1,
     "login_times" : 1,
-    "latest_package_id" : 0,
+    "latest_package_id" : 1,
     "created_at" : "2024-01-22 14:12:17",
     "identifyCode" : 1316231,
-    "vip_expired_at" : 2099-09-09,
+    "vip_expired_at" : 2099-09-09 14:17:18 Etc/GMT",
     "nickname" : "小霸王",
-    "oaid" : null,
-    "wechat_open_id" : null,
+    "oaid" : ,
+    "wechat_open_id" : ,
     "avatar_url" : "",
-    "latest_order" : null,
+    "latest_order" : ,
     "latest_device_name" : "iPhone",
     "source" : "App store",
-    "guest_positive_at" : null,
+    "guest_positive_at" : ,
     "enable" : 1,
-    "qq_open_id" : null,
+    "qq_open_id" : ,
     "status" : 1,
     "avatar" : "",
-    "perpetual_vip" : 2099-09-09,
+    "perpetual_vip" : 2099-09-09 14:17:18 Etc/GMT",
     "idfa" : "00000000-0000-0000-0000-000000000000",
     "idfv" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
     "android_id" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
-    "receive_times" : 2099-09-09,
+    "receive_times" : 2099-09-09 14:17:18 Etc/GMT",
     "updated_at" : "2024-01-22 14:12:20",
     "bddid" : "",
     "latest_login_at" : "2024-01-22 14:12:17",
     "free_search_times" : 1,
     "latest_version" : "v2.2.1",
-    "vip_level" : "vip",
+    "vip_level" : "2099-09-09 14:17:18 Etc/GMT",",
     "register_version" : "v2.2.1",
     "csj_bddid" : "MJDSCXJ7MDLQT7GQWF7BV54HIN4GRWF5AXL7U54FFVKEDKT4ISGA01",
     "jpush_id" : "1114a89793ad68399cd",
