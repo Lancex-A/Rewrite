@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body  
+^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body   
 
 
 [mitm]
