@@ -41,7 +41,7 @@ objc={
     "qq_open_id" : null,
     "status" : 1,
     "avatar" : "",
-    "perpetual_vip" : 1,
+    "perpetual_vip" : 2099-09-09,
     "idfa" : "00000000-0000-0000-0000-000000000000",
     "idfv" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
     "android_id" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
@@ -51,12 +51,12 @@ objc={
     "latest_login_at" : "2024-01-22 14:12:17",
     "free_search_times" : 1,
     "latest_version" : "v2.2.1",
-    "vip_level" : "yes_vip",
+    "vip_level" : "vip",
     "register_version" : "v2.2.1",
     "csj_bddid" : "MJDSCXJ7MDLQT7GQWF7BV54HIN4GRWF5AXL7U54FFVKEDKT4ISGA01",
     "jpush_id" : "1114a89793ad68399cd",
     "phone" : null,
-    "vip" : true
+    "vip" : 2099-09-09
   }
 }
 $done({body : JSON.stringify(objc)});
