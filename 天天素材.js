@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：易学
+项目名称：天天素材
 下载地址：
 脚本作者：
 电报频道：
@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body 
+^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body  
 
 
 [mitm]
