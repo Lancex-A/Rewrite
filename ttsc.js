@@ -9,14 +9,15 @@
 **************************************
 
 [rewrite_local]
-^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body   
+^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
 
 
 [mitm]
-hostname = app70xpgd776392.h5.xiaoeknow.com
-**************************************
+hostname = api.ttsc.juxiao123.cn
 
-{
+**/
+var objc = JSON.parse($response.body);
+objc={
   "data" : {
     "latest_platform" : 0,
     "latest_ip" : 771427237,
@@ -40,21 +41,22 @@ hostname = app70xpgd776392.h5.xiaoeknow.com
     "qq_open_id" : null,
     "status" : 1,
     "avatar" : "",
-    "perpetual_vip" : 0,
+    "perpetual_vip" : 1,
     "idfa" : "00000000-0000-0000-0000-000000000000",
     "idfv" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
     "android_id" : "C4F4AA34-90FC-4303-AB5E-8A8F5D101FCB",
-    "receive_times" : 0,
+    "receive_times" : 2099-09-09,
     "updated_at" : "2024-01-22 14:12:20",
     "bddid" : "",
     "latest_login_at" : "2024-01-22 14:12:17",
     "free_search_times" : 1,
     "latest_version" : "v2.2.1",
-    "vip_level" : "not_vip",
+    "vip_level" : "yes_vip",
     "register_version" : "v2.2.1",
     "csj_bddid" : "MJDSCXJ7MDLQT7GQWF7BV54HIN4GRWF5AXL7U54FFVKEDKT4ISGA01",
     "jpush_id" : "1114a89793ad68399cd",
     "phone" : null,
-    "vip" : false
+    "vip" : true
   }
 }
+$done({body : JSON.stringify(objc)});
