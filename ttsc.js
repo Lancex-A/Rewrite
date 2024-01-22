@@ -28,7 +28,7 @@ objc={
     "latest_package_id" : 0,
     "created_at" : "2024-01-22 14:12:17",
     "identifyCode" : 1316231,
-    "vip_expired_at" : 2029-01-22 14:12:17,
+    "vip_expired_at" : vip,
     "nickname" : "游客65ae0741bc2ae",
     "oaid" : null,
     "wechat_open_id" : null,
