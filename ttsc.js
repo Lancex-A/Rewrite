@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1 url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
+^"http:\/\/api.ttsc.juxiao123.cn\/frontend\/account?version=v2.2.1" url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
 
 
 [mitm]
@@ -51,7 +51,7 @@ objc={
     "latest_login_at" : "2024-01-22 14:12:17",
     "free_search_times" : 1,
     "latest_version" : "v2.2.1",
-    "vip_level" : "vip",
+    "vip_level" : "1987-01-22 14:13:10",
     "register_version" : "v2.2.1",
     "csj_bddid" : "MJDSCXJ7MDLQT7GQWF7BV54HIN4GRWF5AXL7U54FFVKEDKT4ISGA01",
     "jpush_id" : "1114a89793ad68399cd",
