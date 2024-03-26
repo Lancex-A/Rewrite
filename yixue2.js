@@ -18,7 +18,6 @@ hostname =buy.itunes.apple.com
 **************************************
 
 var name1908 = JSON.parse($response.body);
-name1908 = {
 {
   "receipt": {
     "receipt_type": "Production",
@@ -41,6 +40,6 @@ name1908 = {
     "in_app": []
   },
   "environment": "Production",
-  "status": 0
+  "status": 1
 }
 $done({body : JSON.stringify(name1908)});
