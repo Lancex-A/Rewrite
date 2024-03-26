@@ -37,7 +37,7 @@ var name1908 = JSON.parse($response.body);
     "original_purchase_date_ms": "1710328422000",
     "original_purchase_date_pst": "2024-03-13 04:13:42 America/Los_Angeles",
     "original_application_version": "1.2.5.1",
-    "in_app": []
+    "in_app": [1]
   },
   "environment": "Production",
   "status": 1
