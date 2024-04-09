@@ -22,7 +22,7 @@ var name1908 = JSON.parse($response.body);
   {
   "ok" : true,
   "data" : {
-    "memberLevel" : 1,
+    "memberLevel" : 2,
     "birthday" : null,
     "nickName" : null,
     "money" : 0,
@@ -36,10 +36,10 @@ var name1908 = JSON.parse($response.body);
     "email" : null,
     "lastLoginTime" : "2024-04-09 15:17:43",
     "mobile" : "17718491493",
-    "vipValidTime" : "2025-07-09 15:17:43"
-    "age" : null,
+    "vipValidTime" : "2025-10-09 15:17:43"
+    "age" : 50,
     "isLeapMonth" : false,
-    "userName" : null,
+    "userName" : 大师,
     "birthdayType" : 0,
     "createTime" : "2024-04-09 15:17:43",
     "address" : null,
