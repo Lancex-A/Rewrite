@@ -9,37 +9,43 @@
 **************************************
 
 [rewrite_local]
-^https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/yixue2.js
+^https:\/\/api.yuceshu.cn:8443\/api\/Account\/GetUserInfo? url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/yixue2.js
 
 [mitm]
-hostname =buy.itunes.apple.com
+hostname =api.yuceshu.cn:8443
 
 
 **************************************
 
 var name1908 = JSON.parse($response.body);
 {
-  "receipt": {
-    "receipt_type": "Production",
-    "adam_id": 1659589660,
-    "app_item_id": 1659589660,
-    "bundle_id": "cn.congzhen.CongZhenBaZi",
-    "application_version": "1.2.7.1",
-    "download_id": 503293367389455859,
-    "version_external_identifier": 864466843,
-    "receipt_creation_date": "2099-03-26 10:06:21 Etc/GMT",
-    "receipt_creation_date_ms": "1711447581000",
-    "receipt_creation_date_pst": "2099-03-26 03:06:21 America/Los_Angeles",
-    "request_date": "2099-03-26 10:12:22 Etc/GMT",
-    "request_date_ms": "1711447942486",
-    "request_date_pst": "2099-03-26 03:12:22 America/Los_Angeles",
-    "original_purchase_date": "2099-03-13 11:13:42 Etc/GMT",
-    "original_purchase_date_ms": "1710328422000",
-    "original_purchase_date_pst": "2024-03-13 04:13:42 America/Los_Angeles",
-    "original_application_version": "1.2.5.1",
-    "in_app": [1]
+  {
+  "ok" : true,
+  "data" : {
+    "memberLevel" : 0,
+    "birthday" : null,
+    "nickName" : null,
+    "money" : 0,
+    "status" : 0,
+    "isVip" : true,
+    "totalGoldCoin" : 0,
+    "realName" : null,
+    "goldCoin" : 0,
+    "headImage" : null,
+    "inviteUserId" : null,
+    "email" : null,
+    "lastLoginTime" : "2024-04-09 15:17:43",
+    "mobile" : "17718491493",
+    "vipValidTime" : 2029-04-19 19:19:19,
+    "age" : null,
+    "isLeapMonth" : false,
+    "userName" : null,
+    "birthdayType" : 0,
+    "createTime" : "2024-04-09 15:17:43",
+    "address" : null,
+    "userId" : "AAJLXN"
   },
-  "environment": "Production",
-  "status": 1
+  "code" : 0,
+  "message" : "成功"
 }
 $done({body : JSON.stringify(name1908)});
