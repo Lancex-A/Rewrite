@@ -27,7 +27,7 @@ var name1908 = JSON.parse($response.body);
     "nickName" : null,
     "money" : 0,
     "status" : 0,
-    "isVip" : true,
+    "isVip" : 钻石会员,
     "totalGoldCoin" : 0,
     "realName" : null,
     "goldCoin" : 0,
