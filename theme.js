@@ -19,30 +19,28 @@ hostname = buy.itunes.apple.com
 var name1908 = JSON.parse($response.body);
 
 name1908={
-  "receipt" : {
-    "receipt_type" : "Production",
-    "app_item_id" : 1542453907,
-    "receipt_creation_date" : "2099-05-20 08:44:34 Etc/GMT",
-    "bundle_id" : "com.themeFactory.iconMaker",
-    "original_purchase_date" : "2099-05-20 08:26:01 Etc/GMT",
-    "in_app" : [
-
-    ],
-    "adam_id" : 1542453907,
-    "receipt_creation_date_pst" : "2099-05-20 01:44:34 America/Los_Angeles",
-    "request_date" : "2099-05-20 08:47:31 Etc/GMT",
-    "request_date_pst" : "2099-05-20 01:47:31 America/Los_Angeles",
-    "version_external_identifier" : 865528300,
-    "request_date_ms" : "1716194851104",
-    "original_purchase_date_pst" : "2024-05-20 01:26:01 America/Los_Angeles",
-    "application_version" : "2670",
-    "original_purchase_date_ms" : "1716193561000",
-    "receipt_creation_date_ms" : "1716194674000",
-    "original_application_version" : "2670",
-    "download_id" : 503485556526040096
+{
+  "data": {
+    "id": 1376852,
+    "nickname": "195****4931",
+    "isVistor": true,
+    "phone": "19535164931",
+    "isBindWX": true,
+    "isBindApple": true,
+    "isBindQQ": true,
+    "had_vip": true,
+    "goods_policy": "正常方案",
+    "role": "",
+    "score": 2,
+    "had_interests": true,
+    "vip_type_status": 1,
+    "phone_name": "195****4931",
+    "isNew": true,
+    "register_time": "2024-05-20 19:12:53",
+    "order_id": null
   },
-  "status" : 0,
-  "environment" : "Production"
+  "node": 2,
+  "code": 200,
+  "t": "2024-05-20 19:25:05"
 }
-
 $done({body : JSON.stringify(name1908)});
