@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
 [mitm]
 hostname = buy.itunes.apple.com
 
