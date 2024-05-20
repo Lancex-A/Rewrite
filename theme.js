@@ -41,7 +41,7 @@ name1908={
     "original_application_version" : "2670",
     "download_id" : 503485556526040096
   },
-  "status" : 0,
+  "status" : 1,
   "environment" : "Production"
 }
 
