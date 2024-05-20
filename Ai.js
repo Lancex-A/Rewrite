@@ -9,9 +9,9 @@
 **************************************
 
 [rewrite_local]
-^https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
+^https://api-writer.wemobii.com/api/order/AppleSuccess url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
 [mitm]
-hostname = buy.itunes.apple.com
+hostname = api-writer.wemobii.com
 
 
 **************************************
