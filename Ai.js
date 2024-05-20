@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https://api-writer.wemobii.com/api/order/AppleSuccess url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
+^https://api-writer.wemobii.com/api/order/AppleSuccess url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
 [mitm]
 hostname = api-writer.wemobii.com
 
