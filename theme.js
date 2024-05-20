@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
+^https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/theme.js
 [mitm]
 hostname = buy.itunes.apple.com
 
@@ -34,7 +34,7 @@ name1908={
     "request_date_pst" : "2099-05-20 01:47:31 America/Los_Angeles",
     "version_external_identifier" : 865528300,
     "request_date_ms" : "1716194851104",
-    "original_purchase_date_pst" : "2024-05-20 01:26:01 America/Los_Angeles",
+    "original_purchase_date_pst" : "1987-05-20 01:26:01 America/Los_Angeles",
     "application_version" : "2670",
     "original_purchase_date_ms" : "1716193561000",
     "receipt_creation_date_ms" : "1716194674000",
