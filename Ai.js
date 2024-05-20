@@ -33,7 +33,7 @@ name1908={
     "role": "",
     "score": 2,
     "had_interests": true,
-    "vip_type_status": 1,
+    "vip_type_status": 2,
     "phone_name": "195****4931",
     "isNew": true,
     "register_time": "2024-05-20 19:12:53",
