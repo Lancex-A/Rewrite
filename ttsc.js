@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^http://108.181.40.58:88/api/v2/saveiaporder/8? url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
+^http://108.181.40.58:88/api/v2/saveiaporder/8?token=319e4da71716307468365bnge&device=2.3,5.18,iPhone%2014%20Pro%20Max,16.5,zh-Hans&uid=dd57d3e88&v=562 url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ttsc.js   
 
 
 [mitm]
