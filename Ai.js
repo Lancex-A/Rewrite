@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^http://108.181.40.58:88/api/v2/config2020/8?token=c816bfa8171630920872747mb&device=2.3,5.18,iPhone%2014%20Pro%20Max,16.5,zh-Hans&uid=dd57d3e88&v=562 url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
+^http://175.178.52.149:88/api/v2/myinfo/8?token=40a9e81c1716307457830b6l2&device=2.3,5.18,iPhone%2014%20Pro%20Max,16.5,zh-Hans&uid=dd57d3e88&v=562 url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
 [mitm]
 hostname = 175.178.52.149:88
 
