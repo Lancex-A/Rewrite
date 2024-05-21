@@ -24,12 +24,12 @@ name1908={
   "data" : [
     {
       "uuid" : "dd57d3e88",
-      "banned" : "0",
+      "banned" : "1",
       "headimgurl" : null,
       "type" : "1",
       "wxunionid" : null,
       "token" : "ba337c72",
-      "vipto" : "2029-05-21 23:54:52",
+      "vipto" : "2099-05-21 23:54:52",
       "wxopenid" : null,
       "nickname" : null,
       "email" : null,
