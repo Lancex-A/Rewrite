@@ -9,9 +9,9 @@
 **************************************
 
 [rewrite_local]
-^https://api-writer.wemobii.com/api/order/AppleSuccess url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
+^http://175.178.52.149:88/api/v2/myinfo/8? url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
 [mitm]
-hostname = api-writer.wemobii.com
+hostname = 175.178.52.149:88
 
 
 **************************************
@@ -20,27 +20,24 @@ var name1908 = JSON.parse($response.body);
 
 name1908={
 {
-  "data": {
-    "id": 1376852,
-    "nickname": "195****4931",
-    "isVistor": true,
-    "phone": "19535164931",
-    "isBindWX": true,
-    "isBindApple": true,
-    "isBindQQ": true,
-    "had_vip": true,
-    "goods_policy": "正常方案",
-    "role": "",
-    "score": 2,
-    "had_interests": true,
-    "vip_type_status": 1,
-    "phone_name": "195****4931",
-    "isNew": true,
-    "register_time": "2024-05-20 19:12:53",
-    "order_id": null
-  },
-  "node": 2,
-  "code": 200,
-  "t": "2024-05-20 19:25:05"
+  "status" : "1",
+  "data" : [
+    {
+      "uuid" : "dd57d3e88",
+      "banned" : "0",
+      "headimgurl" : null,
+      "type" : "1",
+      "wxunionid" : null,
+      "token" : "ba337c72",
+      "vipto" : "2029-05-21 23:54:52",
+      "wxopenid" : null,
+      "nickname" : null,
+      "email" : null,
+      "appleid" : null,
+      "device" : null
+    }
+  ],
+  "seconds" : 0.010999999999999999
 }
+
 $done({body : JSON.stringify(name1908)});
