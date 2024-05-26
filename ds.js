@@ -52,7 +52,8 @@ name1908={
 						"intro" : "一只勤奋、认真、负责的专业搬家猫！",
 						"is_hot" : true,
 						"is_vip" : true,
-						"level" : 100,
+                                                "text" : "永久会员"
+						"level" : 1,
 						"limit_range" : "0,0,1293,765",
 						"max_count" : 1,
 						"move_able" : true,
