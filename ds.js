@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https://fast.lmfasting.cn/api/plot/list url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/Ai.js
+^https://fast.lmfasting.cn/api/plot/list url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ds.js
 [mitm]
 hostname = fast.lmfasting.cn
 
