@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https://fast.lmfasting.cn/api/Order/ConfigList url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/dss.js   
+^https://fast.lmfasting.cn/api/Order/ConfigList url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/dss.js  
 
 
 [mitm]
