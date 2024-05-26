@@ -34,7 +34,7 @@ objc name1908={
 			"platform" : 0,
 			"price" : 0,
 			"primePrice" : 0,
-			"productId" : "p_vip_0",
+			"productId" : "p_vip_0.0",
 			"text" : "永久会员"
 		},
 		 {
@@ -50,7 +50,7 @@ objc name1908={
 			"platform" : 0,
 			"price" : 0,
 			"primePrice" : 0,
-			"productId" : "vip_subscribe_months_48",
+			"productId" : "vip_subscribe_months_0.0",
 			"text" : "月卡会员"
 		},
 		 {
@@ -66,7 +66,7 @@ objc name1908={
 			"platform" : 0,
 			"price" : 0,
 			"primePrice" : 0,
-			"productId" : "vip_subscribe_years_0",
+			"productId" : "vip_subscribe_years_0.0",
 			"text" : "年卡会员"
 		}
 	],
