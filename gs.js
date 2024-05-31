@@ -25,10 +25,8 @@ name1908={
 	"msg" : "初始值",
 	"status" : true,
 	"statusCode" : 200,
-	"svip" : "/2099-09-09(2099-09-09)/",
-	"vip" : "/2099-09-09(2099-09-09)/"
-        name1908.body.vipType = "VIP";
-        name1908.body.isVip = true;
+	"svip" : "/永久订阅(2099-09-09)/",
+	"vip" : "/永久订阅(2099-09-09)/",
 }
 
 $done({body : JSON.stringify(name1908)});
