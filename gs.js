@@ -21,12 +21,14 @@ var name1908 = JSON.parse($response.body);
 name1908={
 {
 	"imDate" : "2024/5/31 14:09:45",
-	"lastDate" : "/Date(1717135785731)/",
+	"lastDate" : "/2099-09-09(2099-09-09)/",
 	"msg" : "初始值",
 	"status" : true,
 	"statusCode" : 200,
-	"svip" : "/2099-09-09（946656000000)/",
-	"vip" : "/2099-09-09（946656000000)/"
+	"svip" : "/2099-09-09(2099-09-09)/",
+	"vip" : "/2099-09-09(2099-09-09)/"
+        name1908.body.vipType = "VIP";
+        name1908.body.isVip = true;
 }
 
 $done({body : JSON.stringify(name1908)});
