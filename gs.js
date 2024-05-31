@@ -25,8 +25,8 @@ name1908={
 	"msg" : "初始值",
 	"status" : true,
 	"statusCode" : 200,
-	"svip" : "/true(946656000000)/",
-	"vip" : "/true(946656000000)/"
+	"svip" : "/2099-09-09（946656000000)/",
+	"vip" : "/2099-09-09（946656000000)/"
 }
 
 $done({body : JSON.stringify(name1908)});
