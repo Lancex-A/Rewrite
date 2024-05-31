@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https://app.guwendao.net/api/user/getVip.aspx url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/ds.js
+^https://app.guwendao.net/api/user/getVip.aspx url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/gs.js
 [mitm]
 hostname = app.guwendao.net
 
