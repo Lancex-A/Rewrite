@@ -15,10 +15,10 @@ hostname = api.yuceshu.cn
 var name1908 = $response.body;
 var obj = JSON.parse(name1908);
 
-if($request.url.indexOf("/api/userinfo") != -1 {
-    obj.username = "name1908";
-    obj.isVip = true;
-    obj.money = 100000
+if($request.url.indexOf("/api/userinfo") != -1
+    obj.isVip = true,
+    obj.money = 100000,
+    obj.memberLevel = 1,
     obj.vipValidTime = "2025-06-10 14:04:21"
 }
 
