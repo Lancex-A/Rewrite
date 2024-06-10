@@ -19,7 +19,7 @@ if($request.url.indexOf("/api/userinfo") != -1 {
     obj.username = "name1908";
     obj.isVip = true;
     obj.money = 100000
-    obj.vipValidTime = "2099-09-09 12:12:12"
+    obj.vipValidTime = "2025-09-09 12:12:12"
 }
 
 name1908 = JSON.stringify(obj);
