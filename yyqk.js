@@ -15,7 +15,7 @@ hostname = api.yuceshu.cn
 var name1908 = $response.body;
 var obj = JSON.parse(name1908);
 
-if($request.url.indexOf("/api/UserInfo") != -1
+if($request.url.indexOf("/api/Account/UserInfo") != -1
     obj.isVip = true,
     obj.data = "2025-06-10 14:04:21"
     obj.memberLevel = 1,
