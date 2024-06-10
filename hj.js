@@ -8,7 +8,7 @@
 
 *************************************
 [rewrite_local]
-^ url script-response-body
+^https://api.qianmoai.com/api/vip/v1/my url script-response-body
 [mitm]
 hostname = 
 *************************************
