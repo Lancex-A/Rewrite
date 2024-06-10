@@ -15,7 +15,7 @@ hostname =
 var Lancex-A = $response.body;
 var obj = JSON.parse(Lancex-A);
 
-if($request.url.indexOf("/api/Account/GetUserInfo") != -1 {
+if($request.url.indexOf("/api/vip/v1/my") != -1 {
 }
 Lancex-A = JSON.stringify(obj);
 $done(name1908);
