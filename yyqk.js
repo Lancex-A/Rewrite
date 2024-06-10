@@ -17,6 +17,7 @@ var obj = JSON.parse(name1908);
 
 if($request.url.indexOf("/api/userinfo") != -1
     obj.isVip = true,
+    obj.data = "2025-06-10 14:04:21"
     obj.memberLevel = 1,
     obj.vipValidTime = "2025-06-10 14:04:21"
 }
