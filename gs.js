@@ -9,24 +9,14 @@
 **************************************
 
 [rewrite_local]
-^https://app.guwendao.net/api/user/getVip.aspx url script-response-body https://raw.githubusercontent.com/name1908/Rewrite/main/gs.js
+^https?:\/\/graph\.nhaccuatui\.com\/api\/v1\/user\/account\/info url response-body jsonjq-response-body 'if .data?.isVIP? != null then .data.isVIP = true else . end' https://raw.githubusercontent.com/name1908/Rewrite/main/gs.js
 [mitm]
-hostname = app.guwendao.net
+hostname = buy.itunes.apple.com
 
 
 **************************************
 
 var name1908 = JSON.parse($response.body);
 
-name1908={
-{
-	"imDate" : "2024/5/31 14:09:45",
-	"lastDate" : "/2099-09-09(2099-09-09)/",
-	"msg" : "初始值",
-	"status" : true,
-	"statusCode" : 200,
-	"svip" : "/1000000(2099-09-09)/",
-	"vip" : "/1000000(2099-09-09)/",
-}
 
 $done({body : JSON.stringify(name1908)});
