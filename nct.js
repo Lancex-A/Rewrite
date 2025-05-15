@@ -27,7 +27,7 @@ $done({ body });
   "data": {
     "userId": 56629081,
     "isVIP": true,  // 修改为 true 表示 VIP
-    "vipExpire": "2024-07-13T00:00:00",  // 修改为 VIP 过期时间
+    "vipExpire": "2025-07-13T00:00:00",  // 修改为 VIP 过期时间
     "fullName": "哈哈哈",
     "displayName": "哈哈哈",
     "phoneNumber": "(+86)195XXX64931",
