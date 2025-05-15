@@ -17,6 +17,7 @@ hostname = graph.nhaccuatui.com
 **************************************
 let body = $response.body;
 body = body.replace(/("isVIP"\s*:\s*)false/g, '$1true');
+$done({ body });
 {
   "total": 0,
   "loadmore": false,
@@ -36,6 +37,5 @@ body = body.replace(/("isVIP"\s*:\s*)false/g, '$1true');
   "profileId": "prod",
   "curTime": 1747313463011
 }
-
 $done({ body });
 
