@@ -17,10 +17,6 @@ hostname = graph.nhaccuatui.com
 **************************************
 let body = $response.body;
 body = body.replace(/("isVIP"\s*:\s*)false/g, '$1true');
-万雷元:
-https://raw.githubusercontent.com/Lancex-A/Rewrite/refs/heads/main/nct.js
-
-万雷元:
 {
   "total": 0,
   "loadmore": false,
