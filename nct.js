@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：gs
+项目名称：nct
 下载地址：
 脚本作者：iOS151
 电报频道：
@@ -34,7 +34,7 @@ var Lancex-A = JSON.parse($response.body);
     "displayName": "哈哈哈",
     "listSongDefault": "0",
     "listVideoDefault": "0",
-    "email": "",
+    "email": "85351033@qq.com",
     "loginUsername": "9535164931_1747150193984",
     "isShowUpdate": true,
     "cloudInfo": {
