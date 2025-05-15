@@ -16,7 +16,7 @@ hostname = graph.nhaccuatui.com
 
 **************************************
 
-var name1908 = JSON.parse($response.body);
+var Lancex-A = JSON.parse($response.body);
 {
   "total": 0,
   "loadmore": false,
@@ -86,4 +86,4 @@ var name1908 = JSON.parse($response.body);
   "curTime": 1747313463011,
   "success": true
 }
-$done({body : JSON.stringify(name1908)});
+$done({body : JSON.stringify(Lancex-A)});
