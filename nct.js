@@ -29,7 +29,7 @@ var Lancex-A = JSON.parse($response.body);
     "avatar": "https://image-cdn.nct.vn/avatar/2023/06/13/t/k/r/6/1686637528839.png",
     "avatarMax": "https://image-cdn.nct.vn/avatar/2023/06/13/t/k/r/6/1686637528839_1000.png",
     "isVIP": true,
-    "vipExpire": "2099-09-09",
+    "vipExpire": "End",
     "fullName": "哈哈哈",
     "displayName": "哈哈哈",
     "listSongDefault": "0",
