@@ -34,9 +34,9 @@ var name1908 = JSON.parse($response.body);
     "displayName": "哈哈哈",
     "listSongDefault": "0",
     "listVideoDefault": "0",
-    "email": "85XXX033@qq.com",
+    "email": "",
     "loginUsername": "9535164931_1747150193984",
-    "isShowUpdate": false,
+    "isShowUpdate": true,
     "cloudInfo": {
       "userId": 56629081,
       "totalPlaylist": 0,
