@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/graph\.nhaccuatui\.com\/api\/v1\/user\/account\/info url response-body https://raw.githubusercontent.com/name1908/Rewrite/main/nct.js
+^https?:\/\/graph\.nhaccuatui\.com\/api\/v1\/user\/account\/info url response-body https://raw.githubusercontent.com/Lancex-A/Rewrite/refs/heads/main/nct.js
 [mitm]
 hostname = graph.nhaccuatui.com
 
